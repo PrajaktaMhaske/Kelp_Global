@@ -3,7 +3,7 @@ echo "Search user:"
 dir="/home"
 read typed
 if $typed -e $dir; then
-    echo "user exist!"
+    echo "User exist!"
 else
-    echo "user deosn't exist"
+    echo "User deosn't exist"
 fi
